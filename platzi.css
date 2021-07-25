@@ -1,0 +1,45 @@
+p {
+    color:#98ca3f;
+    font-size: 40px;
+    font-weight:bold;
+    font-family:"Helvetica";
+    
+}
+h1 {
+    font-size:20px;
+    font-weight:bold;
+    color:goldenrod;
+    font-family: fantasy;
+
+}
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: indigo;
+    font-family: fantasy;
+}
+    
+h3 {
+    font-size: 20px;
+    font-family: fantasy;
+    color: hotpink;
+    font-weight: bold;
+}
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+    font-family: fantasy;
+}
+h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+    font-family: fantasy;
+}
+h6 {
+    font-size: 20px;
+    font-weight: bold;
+    color: blueviolet;
+    font-family: fantasy;
+}
