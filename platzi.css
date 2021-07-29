@@ -1,35 +1,54 @@
-p {
-    color:#98ca3f;
-    font-size: 40px;
-    font-weight:bold;
-    font-family:"Helvetica";
-    
+body {
+    margin: 0px;
+    background-color: #00b4d8 ;
 }
+header img {
+    width: 200px;
+    margin-top: 10px;  
+    margin-left: 10px;
+}
+
+margin {
+    background-color:#00b4d8  ;
+}
+
+ div {
+     display: flex;
+     align-items: right;
+     float:right;
+     justify-content: right;
+    position: fixed right 20px;
+ }
 h1 {
-    font-size:20px;
+    font-size: 20px;
     font-weight:bold;
     color:goldenrod;
     font-family: fantasy;
-
+    margin: 16.6px;
+    
+   
 }
 h2 {
     font-size: 20px;
     font-weight: bold;
     color: indigo;
     font-family: fantasy;
+    
 }
     
 h3 {
     font-size: 20px;
     font-family: fantasy;
     color: hotpink;
-    font-weight: bold;
+    font-weight: fantasy;
+    margin: 16.6px;
 }
 h4 {
     font-size: 20px;
     font-weight: bold;
     color: blueviolet;
     font-family: fantasy;
+    margin: 16.6px;
 }
 h5 {
     font-size: 20px;
@@ -42,4 +61,33 @@ h6 {
     font-weight: bold;
     color: blueviolet;
     font-family: fantasy;
+}
+
+section {
+    background-color: #ffba08 ;
+}
+
+P:first-child {
+    color: rgb(235, 75, 208);
+    font-size: 20px;
+    font-family: Arial;
+    font-weight:bold ;
+}
+ p:nth-child(3n) {
+    color: rgb(202, 41, 41);
+    font-size: 20px;
+    font-family: Arial;
+    font-weight:bold ;
+}
+ p:nth-child(2n) {
+    color: rgb(76, 207, 230);
+    font-size: 20px;
+    font-family: Arial;
+    font-weight:bold ;
+}
+ p:nth-child(4n) {
+    color: hotpink;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight:bold ;
 }
