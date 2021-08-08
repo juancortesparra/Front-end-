@@ -1,0 +1,146 @@
+ body {
+    margin: 0px;
+    background-color: #21c08b  ;
+    font-family: 'Mulish', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.header {
+    background-color: #21c08b ;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu {
+    margin-right: 70px;
+}
+.header__menu li  {
+    margin: 10px 0px;
+}
+.header__menu li a {
+    color: white;
+    text-decoration: none;
+}
+h2 {
+    align-items: center;
+    
+}
+.header__img {
+    width: 200px;
+    margin-top: 10px;  
+    margin-left: 10px;
+}
+.register__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+
+.login {
+    background: linear-gradient(#21c08b, #Ab88ff) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+}
+
+/* white box */
+.register__container {
+    background-color:   rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.register__container--form label {
+    font-size: 14px;
+}
+
+
+
+
+
+
+.input {
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white ;
+    font-size: 16px;
+    font-family:'Mulish', sans-serif; 
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+ }
+ ::placeholder {
+    color: white;
+}
+.button {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif; 
+    height: 50px;
+    letter-spacing: 2px;
+    margin: 10px 0px;
+}
+.button1 {
+
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif; 
+    height: 50px;
+    letter-spacing: 2px;
+    margin: 10px 0px;
+    
+    
+}
+.footer {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%; 
+    background-color: #Ab88ff; 
+} 
+.footer a {
+    
+    color:white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 230px;
+    padding-bottom: 20px;
+    text-decoration: none;  
+}
+.footer a:hoover {
+    text-decoration: underline;
+}
