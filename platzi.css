@@ -89,6 +89,7 @@ text-decoration: underline;
     display: flex;
     justify-content: space-between;
     margin-top:10px ;
+    margin-bottom: 10px;
 }
 
 /* olvide mi contraseña */
@@ -105,7 +106,7 @@ text-decoration: underline;
     display: flex;
     align-items: center;
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .login__container--social-media > div > img {
@@ -155,11 +156,12 @@ text-decoration: underline;
     height: 50px;
     letter-spacing: 1px;
     margin: 10px 0px;
+    
 }
 .footer {
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 140px;
     width: 100%; 
     background-color: #Ab88ff; 
 } 
@@ -172,4 +174,18 @@ text-decoration: underline;
 }
 .footer a:hoover {
     text-decoration: underline;
+}
+/* Aqui va el ajuste para mobile-first */ 
+@media only screen and (max-width: 600px) {
+    .login__container {
+        background-color: transparent;
+        border: none;
+        padding: 0px;
+        width: 100%;
+        box-shadow: none;
+    }
+    .footer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
 }
