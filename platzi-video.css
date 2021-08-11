@@ -3,6 +3,7 @@ body {
     background-color: #00b4d8 ;
     font-family: 'Mulish', sans-serif;
 }
+
 .header {
     background-color: #00b4d8 ;
     width: 100%;
@@ -12,15 +13,18 @@ body {
     align-items: center;
 
 }
+
 .header__img {
     width: 200px;
     margin-top: 10px;  
     margin-left: 10px;
 }
+
 .header__menu {
     margin-right: 30px;
 
 }
+
 .header__menu ul {
     display: none;
     list-style: none;
@@ -30,36 +34,55 @@ body {
     text-align: right;
     margin: 0px 0px 0px -14px;
 }
+
 .header__menu:hover ul, ul:hover {
     display: block;
 }
+
 .header__menu li {
     margin: 10px 0px;
 }
+
 .header__menu li a {
     color: white;
     text-decoration:none ;
 }
+
 .header__menu li a:hover {
 text-decoration: underline;
 }
+
 .header__menu--profile {
     margin-right: 8px;
     display: flex;
     align-items: center;
     cursor: pointer;
 }
+
 .header__menu--profile img {
     margin-right: 8px;
     width: 40px;
 }
+
 .main {
     height: 300px;
 }
+
 .main__title {
     color:white;
     font-size: 25px;   
 }
+
+.categories__title {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    padding-right: 30px;
+    width: 100%;
+
+
+}
+
 .input {
     background-color:#00b4d8;
     border: 2px solid white;
@@ -73,11 +96,10 @@ text-decoration: underline;
     border-radius: 25px;
     outline: none;
 }
+
  ::placeholder {
      color: white;
  }
-
-
 
 
  
