@@ -76,6 +76,9 @@ text-decoration: underline;
     justify-content: space-around;
     flex-direction: column;
 }
+h2 {
+    color: white;
+}
 .register__container--form {
     display: flex;
     flex-direction: column;
