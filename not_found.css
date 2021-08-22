@@ -1,0 +1,33 @@
+
+body {
+    display: flex;
+    justify-content: space-between;
+  background-color: dimgray;
+  }
+
+  
+  .body {
+    padding-right: 0px;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-name: pulse;
+    font-size: 15rem;
+  }
+  
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .error404__subtitle {
+    font-size: 5rem;
+  }
